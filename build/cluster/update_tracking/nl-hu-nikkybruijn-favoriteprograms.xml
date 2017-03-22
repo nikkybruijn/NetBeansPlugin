@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="nl.hu.nikkybruijn.favoriteprograms">
+    <module_version install_time="1490193286984" last="true" origin="installer" specification_version="1.0">
+        <file crc="863188074" name="config/Modules/nl-hu-nikkybruijn-favoriteprograms.xml"/>
+        <file crc="3160167018" name="modules/nl-hu-nikkybruijn-favoriteprograms.jar"/>
+    </module_version>
+</module>

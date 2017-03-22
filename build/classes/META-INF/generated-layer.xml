@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Build">
+            <file name="nl-hu-nikkybruijn-favoriteprograms-Foobar2kOpener.instance">
+                <!--nl.hu.nikkybruijn.favoriteprograms.Foobar2kOpener-->
+                <attr
+                    bundlevalue="nl.hu.nikkybruijn.favoriteprograms.Bundle#CTL_Foobar2kOpener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="nl.hu.nikkybruijn.favoriteprograms.Foobar2kOpener"/>
+                <attr name="iconBase" stringvalue="nl/hu/nikkybruijn/favoriteprograms/foobar.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="nl-hu-nikkybruijn-favoriteprograms-SpotifyOpener.instance">
+                <!--nl.hu.nikkybruijn.favoriteprograms.SpotifyOpener-->
+                <attr
+                    bundlevalue="nl.hu.nikkybruijn.favoriteprograms.Bundle#CTL_SpotifyOpener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="nl.hu.nikkybruijn.favoriteprograms.SpotifyOpener"/>
+                <attr name="iconBase" stringvalue="nl/hu/nikkybruijn/favoriteprograms/spotify.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="nl-hu-nikkybruijn-favoriteprograms-EclipseOpener.instance">
+                <!--nl.hu.nikkybruijn.favoriteprograms.EclipseOpener-->
+                <attr
+                    bundlevalue="nl.hu.nikkybruijn.favoriteprograms.Bundle#CTL_EclipseOpener" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="nl.hu.nikkybruijn.favoriteprograms.EclipseOpener"/>
+                <attr name="iconBase" stringvalue="nl/hu/nikkybruijn/favoriteprograms/eclipse.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Build">
+            <file name="nl-hu-nikkybruijn-favoriteprograms-Foobar2kOpener.shadow">
+                <!--nl.hu.nikkybruijn.favoriteprograms.Foobar2kOpener-->
+                <attr name="originalFile" stringvalue="Actions/Build/nl-hu-nikkybruijn-favoriteprograms-Foobar2kOpener.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+            <file name="nl-hu-nikkybruijn-favoriteprograms-SpotifyOpener.shadow">
+                <!--nl.hu.nikkybruijn.favoriteprograms.SpotifyOpener-->
+                <attr name="originalFile" stringvalue="Actions/Build/nl-hu-nikkybruijn-favoriteprograms-SpotifyOpener.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+            <file name="nl-hu-nikkybruijn-favoriteprograms-EclipseOpener.shadow">
+                <!--nl.hu.nikkybruijn.favoriteprograms.EclipseOpener-->
+                <attr name="originalFile" stringvalue="Actions/Build/nl-hu-nikkybruijn-favoriteprograms-EclipseOpener.instance"/>
+                <attr intvalue="450" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
